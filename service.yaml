@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: wil-pg
 spec:
+  type: LoadBalancer
   selector:
     app: wil-pg
   ports:
